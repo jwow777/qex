@@ -1,0 +1,57 @@
+.page {
+  font-family: "Roboto", sans-serif;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header__lists {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  grid-column-gap: 15px;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.header__link {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.header__link-active {
+  color: rgb(107, 106, 106);
+  text-decoration: underline;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  padding: 10px 40px;
+}
+
+.login {
+  max-width: 450px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.login__form {
+  width: 100%;
+}
+
+.profile__lists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+}
